@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px;
+    background: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title Styles */
+h1 {
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Spacing below the title */
+    font-size: 24px; /* Title size */
+    color: #2c3e50; /* Darker color for the title */
+}
+
+/* Table Styles */
+.table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove spacing between cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+.table thead {
+    background-color: #2980b9; /* Header background */
+    color: white; /* Header text color */
+}
+
+.table th, .table td {
+    padding: 12px; /* Spacing in table cells */
+    text-align: left; /* Left-align text in cells */
+    border: 1px solid #ddd; /* Light border for cells */
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+}
+
+.table tr:hover {
+    background-color: #e9ecef; /* Highlight on hover */
+}
+
+/* Select Dropdown Styles */
+select {
+    padding: 8px; /* Padding for dropdown */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    outline: none; /* Remove outline */
+    transition: border 0.3s; /* Smooth border transition */
+}
+
+select:focus {
+    border-color: #2980b9; /* Change border color on focus */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #2980b9; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn:hover {
+    background-color: #1a5276; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+    
+    h1 {
+        font-size: 20px; /* Smaller title size */
+    }
+
+    .table th, .table td {
+        padding: 10px; /* Less padding for smaller screens */
+    }
+}
